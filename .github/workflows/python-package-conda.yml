@@ -100,8 +100,3 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: bash e.sh
-  xrefyqlidkhc:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - run: bash e.sh
